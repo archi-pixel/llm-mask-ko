@@ -1,0 +1,31 @@
+{
+  "name": "llm-mask-ko",
+  "version": "1.0.0",
+  "description": "한국어 민원·문의 글을 LLM에 보내기 직전에 개인정보를 지우는 순수 함수. 호실번호와 증상은 남깁니다.",
+  "main": "llm-mask.js",
+  "files": [
+    "llm-mask.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "pii",
+    "masking",
+    "korean",
+    "llm",
+    "openai",
+    "privacy",
+    "개인정보",
+    "비식별"
+  ],
+  "author": "장상민",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
